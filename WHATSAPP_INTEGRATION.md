@@ -1,7 +1,7 @@
 # WhatsApp Webhook Integration - Implementation Summary
 
 ## Overview
-Successfully integrated WhatsApp messaging via webhook API for deposit and withdrawal transactions in the SmartBhishi Android application.
+Successfully integrated WhatsApp messaging via webhook API for deposit and withdrawal transactions in the SmartBishi Android application.
 
 ## Webhook Details
 - **Base URL**: `https://webhook.whatapi.in/webhook/69213b981b9845c02d533ccb`

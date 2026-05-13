@@ -1,4 +1,4 @@
-package com.spark.smartbhishi;
+package com.spark.smartbishi;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.spark.smartbhishi", appContext.getPackageName());
+        assertEquals("com.spark.smartbishi", appContext.getPackageName());
     }
 }

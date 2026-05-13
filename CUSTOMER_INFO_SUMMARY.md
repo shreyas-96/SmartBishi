@@ -135,7 +135,7 @@
 
 ## 🚀 **Ready to Use!**
 
-Your **SmartBhishi** app now has complete customer management:
+Your **SmartBishi** app now has complete customer management:
 
 ### **✅ What Works:**
 - View all customers with creation/update timestamps

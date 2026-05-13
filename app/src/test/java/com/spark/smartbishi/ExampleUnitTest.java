@@ -1,4 +1,4 @@
-package com.spark.smartbhishi;
+package com.spark.smartbishi;
 
 import org.junit.Test;
 

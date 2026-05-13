@@ -5,7 +5,7 @@
 ### **🎨 Design Features:**
 - ✅ **Gradient Background** - Beautiful blue gradient matching app theme
 - ✅ **App Logo** - Your savemoneydesign icon in circular white background
-- ✅ **App Name** - "SmartBhishi" in large bold text
+- ✅ **App Name** - "SmartBishi" in large bold text
 - ✅ **Tagline** - "Smart Collection Management"
 - ✅ **Loading Animation** - Spinning progress bar with dynamic text
 - ✅ **Company Branding** - "BhishiGroup" and version info at bottom
@@ -56,7 +56,7 @@
 ### **Visual Elements:**
 - **🎨 Gradient Background** - Professional blue gradient
 - **💫 App Logo** - Circular design with your money icon
-- **📝 App Name** - "SmartBhishi" in bold white text
+- **📝 App Name** - "SmartBishi" in bold white text
 - **🏢 Company Brand** - "BhishiGroup" prominently displayed
 - **⚡ Loading Animation** - Spinning progress with changing text
 - **🎯 Version Info** - Shows "Version 1.0"
@@ -65,7 +65,7 @@
 
 ## 🚀 **Ready to Use!**
 
-Your **SmartBhishi** app now has a professional splash screen that:
+Your **SmartBishi** app now has a professional splash screen that:
 
 ### **✅ What Users See:**
 1. **Beautiful branding** with your app logo and name
@@ -91,4 +91,4 @@ Your splash screen creates a **premium first impression** with:
 - ✅ **Perfect timing** for app initialization
 - ✅ **Seamless navigation** to main features
 
-Now when users open your SmartBhishi app, they'll see a beautiful, professional splash screen that reinforces your brand and creates a great first impression! 🚀
+Now when users open your SmartBishi app, they'll see a beautiful, professional splash screen that reinforces your brand and creates a great first impression! 🚀

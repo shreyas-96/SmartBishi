@@ -89,7 +89,7 @@
 
 ## 🚀 **Ready to Use!**
 
-Your **SmartBhishi** app now has complete route management:
+Your **SmartBishi** app now has complete route management:
 
 1. **Default routes** (Sangli, Kolhapur, Satara) are added automatically
 2. **Add new routes** easily with the + button

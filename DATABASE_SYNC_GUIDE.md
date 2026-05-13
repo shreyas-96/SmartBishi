@@ -1,7 +1,7 @@
 # Database Synchronization Guide
 
 ## Overview
-Your SmartBhishi app now has **complete database synchronization** between Firebase and the app interface.
+Your SmartBishi app now has **complete database synchronization** between Firebase and the app interface.
 
 ## ✅ What's Working Now
 

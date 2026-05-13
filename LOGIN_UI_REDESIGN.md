@@ -16,7 +16,7 @@
 - Professional branding
 
 #### 3. **App Branding**
-- "SmartBhishi" title in large, bold font
+- "SmartBishi" title in large, bold font
 - "Collection Management System" subtitle
 - White text on gradient background
 - Clear brand identity

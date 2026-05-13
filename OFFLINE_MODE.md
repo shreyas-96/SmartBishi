@@ -1,7 +1,7 @@
 # Offline Mode Implementation
 
 ## Overview
-The SmartBhishi app now supports **offline mode** for deposits and withdrawals. When there's no internet connection, transactions are saved locally and automatically synced to Firebase when connectivity is restored.
+The SmartBishi app now supports **offline mode** for deposits and withdrawals. When there's no internet connection, transactions are saved locally and automatically synced to Firebase when connectivity is restored.
 
 ## How It Works
 

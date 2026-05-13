@@ -119,7 +119,7 @@ Complete dark theme color palette:
 #### 6. **values-night/themes.xml**
 Material Design 3 dark theme:
 ```xml
-<style name="Theme.SmartBhishi" parent="Theme.Material3.DayNight">
+<style name="Theme.SmartBishi" parent="Theme.Material3.DayNight">
     <item name="colorPrimary">@color/primary</item>
     <item name="android:colorBackground">@color/background</item>
     <item name="android:statusBarColor">@color/background</item>

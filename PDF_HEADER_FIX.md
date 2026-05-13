@@ -56,7 +56,7 @@ Line 2:    भेट वस्तू संचयन योजना 2025 )
 
 **Short Names (fits in one line):**
 ```
-🏢 SmartBhishi
+🏢 SmartBishi
 ```
 
 **Medium Names (smaller font):**

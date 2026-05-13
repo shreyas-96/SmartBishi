@@ -5,13 +5,13 @@
 ### 🚀 **What's Been Done:**
 
 #### 1. **Application-Level Theme Initialization** ✅
-**File:** `SmartBhishiApplication.java`
+**File:** `SmartBishiApplication.java`
 - Theme loads **BEFORE** any activity starts
 - Applied globally to entire app
 - Registered in AndroidManifest.xml
 
 ```java
-public class SmartBhishiApplication extends Application {
+public class SmartBishiApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
@@ -128,7 +128,7 @@ public static final String PREF_THEME_MODE = "theme_mode";
 ```
 App Starts
     ↓
-SmartBhishiApplication.onCreate()
+SmartBishiApplication.onCreate()
     ↓
 Load theme from SharedPreferences
     ↓
@@ -275,7 +275,7 @@ Accent:           #03DAC6 (Teal)
 
 ### Issue: Theme not applying
 **Solution:** 
-- Check SmartBhishiApplication is registered in AndroidManifest
+- Check SmartBishiApplication is registered in AndroidManifest
 - Verify theme preference is saved correctly
 - Ensure AppCompatDelegate.setDefaultNightMode() is called
 
@@ -296,7 +296,7 @@ Accent:           #03DAC6 (Teal)
 ## 📝 **Files Modified/Created:**
 
 ### Created:
-1. ✅ `SmartBhishiApplication.java` - Global theme initialization
+1. ✅ `SmartBishiApplication.java` - Global theme initialization
 2. ✅ `BaseActivity.java` - Base class for activities
 3. ✅ `values-night/colors.xml` - Dark theme colors
 4. ✅ `values-night/themes.xml` - Dark theme styles
@@ -340,7 +340,7 @@ Accent:           #03DAC6 (Teal)
 If theme is not working:
 1. Clean and rebuild project
 2. Uninstall and reinstall app
-3. Check logcat for "SmartBhishiApp" tag
+3. Check logcat for "SmartBishiApp" tag
 4. Verify all files are properly saved
 
 **Theme system ab 100% working hai! Enjoy! 🎨✨**
