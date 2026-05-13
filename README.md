@@ -44,7 +44,16 @@
 4. Build and run the application.
 
 ## 📱 Screenshots
-*(Add your app screenshots here to show off the beautiful UI)*
+
+<p align="center">
+  <img src="./screenshots/splash.png" width="200" alt="Splash Screen">
+  <img src="./screenshots/home.png" width="200" alt="Home Screen">
+  <img src="./screenshots/transaction.png" width="200" alt="Transaction Dashboard">
+</p>
+<p align="center">
+  <img src="./screenshots/reports.png" width="200" alt="Reports Menu">
+  <img src="./screenshots/settings.png" width="200" alt="Settings & Profile">
+</p>
 
 ## 📄 License
 This project is for private use by BhishiGroup.
