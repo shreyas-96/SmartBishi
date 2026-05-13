@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS"
+        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware,SmsAndCallLogPolicy" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".SmartBishiApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/savemoneydesign"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartBishi">
+        
+    <activity android:name=".activities.WithdrawActivity" />
+        <!-- Splash Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name="com.example.routewisecollection.MainActivity"
+            android:exported="false" />
+
+        <!-- Add Customer Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.AddCustomerActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.MainActivity" />
+
+        <!-- Deposit Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.DepositActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.MainActivity" />
+
+        <!-- Route List Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.RouteListActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.MainActivity" />
+
+        <!-- Print Receipt Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.PrintReceiptActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.MainActivity" />
+
+        <!-- Reports Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.ReportsActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.MainActivity" />
+
+        <!-- Settings Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.SettingsActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.MainActivity" />
+
+        <!-- Customer Info Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.CustomerInfoActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.MainActivity" />
+
+        <!-- Login Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.LoginActivity"
+            android:exported="false"
+            android:theme="@style/SplashTheme" />
+
+        <!-- Registration Activity -->
+<!--        <activity-->
+<!--            android:name="com.example.routewisecollection.activities.RegistrationActivity"-->
+<!--            android:exported="false"-->
+<!--            android:theme="@style/SplashTheme"-->
+<!--            android:parentActivityName="com.example.routewisecollection.activities.LoginActivity" />-->
+
+        <activity
+            android:name="com.example.routewisecollection.activities.ActiveCustomersActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.activities.ReportsActivity" />
+
+        <!-- Daily Report Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.DailyReportActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.activities.ReportsActivity" />
+
+        <!-- Monthly Report Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.MonthlyReportActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.activities.ReportsActivity" />
+
+        <!-- Customer Report Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.CustomerReportActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.activities.ReportsActivity" />
+
+        <!-- Withdraw Report Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.WithdrawReportActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.activities.ReportsActivity" />
+
+
+
+        <!-- Weekly Report Activity -->
+        <activity
+            android:name="com.example.routewisecollection.activities.WeeklyReportActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.routewisecollection.activities.ReportsActivity" />
+
+        <!-- File Provider for PDF sharing -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Network Change Receiver for offline sync -->
+        <receiver
+            android:name="com.example.routewisecollection.receivers.NetworkChangeReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+            
+    </application>
+
+</manifest>
