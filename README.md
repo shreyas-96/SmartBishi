@@ -50,4 +50,10 @@
 This project is for private use by BhishiGroup.
 
 ---
+## 👥 Contributors
+
+- **Developer**: Shreyas Chudmunge
+- **Company**: Spark Technologies
+
 Generated with ❤️ by SmartBishi Team
+
